@@ -54,6 +54,8 @@ docker compose version
 > **Screenshot 1:** Take a screenshot showing both version outputs.
 >
 > `[insert screenshot]`
+> <img width="638" height="439" alt="Capture d’écran 2026-07-02 à 13 34 13" src="https://github.com/user-attachments/assets/a2fe3082-950e-4cb8-8398-df1a0cb292f3" />
+
 
 ---
 
@@ -79,6 +81,8 @@ docker images
 > `docker images` output.
 >
 > `[insert screenshot]`
+> <img width="927" height="721" alt="Capture d’écran 2026-07-02 à 13 35 10" src="https://github.com/user-attachments/assets/d7cb8663-0470-4894-bf94-5d5d86d61955" />
+
 
 ### Step 2 – Run an nginx Webserver
 
@@ -179,6 +183,8 @@ exit
 > the commands run inside the container.
 >
 > `[insert screenshot]`
+> <img width="927" height="721" alt="Capture d’écran 2026-07-02 à 13 41 44" src="https://github.com/user-attachments/assets/9b11d10f-40db-4968-abb6-b9b0482f3571" />
+
 
 ### Step 4 – Commit
 
@@ -262,6 +268,8 @@ docker exec -it pg psql -U postgres -c "SELECT * FROM test;"
 > **Screenshot 4:** Take a screenshot showing the error message.
 >
 > `[insert screenshot]`
+> <img width="927" height="721" alt="Capture d’écran 2026-07-02 à 13 55 09" src="https://github.com/user-attachments/assets/1911fb9a-67ed-4b28-85fb-08c5ecae4bd1" />
+
 
 ### Questions for Section 3
 
@@ -347,6 +355,8 @@ docker volume inspect pg_data
 > container recreation, and the `docker volume inspect` output.
 >
 > `[insert screenshot]`
+> <img width="927" height="721" alt="Capture d’écran 2026-07-02 à 13 57 38" src="https://github.com/user-attachments/assets/50416312-f8f7-4876-bdf7-a2cd90aac853" />
+
 
 ### Step 3 – Clean Up
 
@@ -431,6 +441,8 @@ docker run --rm -it postgres:16 \
 > **Screenshot 6:** Take a screenshot showing the connection error.
 >
 > `[insert screenshot]`
+> <img width="927" height="721" alt="Capture d’écran 2026-07-02 à 13 58 12" src="https://github.com/user-attachments/assets/0f4ddc5f-e9af-472b-8de7-7ff010aef34c" />
+
 
 ### Step 2 – Fix It With a Custom Bridge Network
 
@@ -615,6 +627,8 @@ curl http://localhost:8000/studenten
 > `curl /` response.
 >
 > `[insert screenshot]`
+> <img width="750" height="820" alt="Capture d’écran 2026-07-02 à 15 22 44" src="https://github.com/user-attachments/assets/a55cda00-84c5-42a0-b7d9-704c01e64a45" />
+
 
 ### Step 5 – Observe Compose Networking
 
@@ -758,6 +772,8 @@ curl http://localhost:8000/studenten
 > with all four rows.
 >
 > `[insert screenshot]`
+> <img width="750" height="820" alt="Capture d’écran 2026-07-02 à 15 36 20" src="https://github.com/user-attachments/assets/ca928aab-86e3-454f-ad86-828b47ab57df" />
+
 
 ### Step 4 – Commit
 
@@ -891,6 +907,8 @@ git push
 > `.env` is not staged, and the working `curl` response.
 >
 > `[insert screenshot]`
+> <img width="750" height="820" alt="Capture d’écran 2026-07-02 à 15 45 35" src="https://github.com/user-attachments/assets/4eb9efab-ff32-441a-bff4-0d3c2814daca" />
+
 
 ### Questions for Section 8
 
@@ -1010,6 +1028,8 @@ curl http://localhost:8000/studenten
 > final image size and the working `curl` response.
 >
 > `[insert screenshot]`
+> <img width="750" height="737" alt="Capture d’écran 2026-07-02 à 15 53 15" src="https://github.com/user-attachments/assets/5f8d23cd-5238-4e28-927e-d8d35129aa4f" />
+
 
 ### Step 5 – Commit
 
@@ -1096,6 +1116,8 @@ docker compose exec api whoami
 > returning `appuser`.
 >
 > `[insert screenshot]`
+> <img width="864" height="525" alt="Capture d’écran 2026-07-02 à 15 58 07" src="https://github.com/user-attachments/assets/5d1562e3-7a67-4bf1-881f-f982d6c0d0e4" />
+
 
 ### Step 3 – Commit
 

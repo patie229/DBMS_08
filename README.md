@@ -1,8 +1,8 @@
-# DBMS_09 – From Container to Docker Compose
+# DBMS_08 – From Container to Docker Compose
 
 **Module:** Databases · THGA Bochum  
 **Lecturer:** Stephan Bökelmann · <sboekelmann@ep1.rub.de>  
-**Repository:** <https://github.com/MaxClerkwell/DBMS_09>  
+**Repository:** <https://github.com/MaxClerkwell/DBMS_08>  
 **Prerequisites:** DBMS_01 – DBMS_07, Lecture 09  
 **Duration:** 120 minutes
 
